@@ -11,8 +11,8 @@ public class AreaDoTriangulo {
             base = scn.nextInt();
         System.out.println("Digite o valor da altura: ");
             altura = scn.nextInt();
+            area = (base*altura) / 2;
 
-        area = (base*altura) / 2;
         System.out.println("O valor da area é de: " + area);
 
     }
