@@ -12,9 +12,9 @@ public class SomaDeDoisNumeros{
         //escreva os inputs para o usuario entregar os dados
         System.out.println("Soma de dois numeros ");
         System.out.println("Digite o primeiro numero: ");
-            primeiroValor = scn.nextInt();
+        primeiroValor = scn.nextInt();
         System.out.println("Digite o segundo numero: ");
-            segundoValor = scn.nextInt();
+        segundoValor = scn.nextInt();
         
         //crie uma variavel para o resultado e, faça a operação com os dados recebidos
         soma = primeiroValor + segundoValor;
