@@ -20,7 +20,7 @@ public class AC1 {
         System.out.println("Digite sua nota na AF: ");
         af = scn.nextDouble();
 
-        //recaba a nota minima para aprovacao
+        //receba a nota minima para aprovacao
         System.out.println("Digite a nota mínima para aprovação: ");
         notaminima = scn.nextDouble();
 
@@ -42,7 +42,8 @@ public class AC1 {
         }else{
             System.out.println("Reprovado!");
         }
-
+        
+        //feche o scanner
         scn.close();
     }
 }
