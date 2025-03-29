@@ -20,5 +20,4 @@ public class FaixaEtaria {
         if (idade >= 65)
             System.out.println("É um idoso");
     }
-    
 }
