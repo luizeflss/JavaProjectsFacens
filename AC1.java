@@ -4,12 +4,8 @@ public class AC1 {
     public static void main(String[] args) {
         //inicialize as variaveis
         Scanner scn = new Scanner(System.in);
-        double ac1 = 0.0;
-        double ac2 = 0.0;
-        double ag = 0.0;
-        double af = 0.0;
-        double notaminima = 0.0;
-
+        double ac1,ac2,ag,af,notaMinima = 0.0;
+      
         //receba as notas do usuario
         System.out.println("Digite sua nota na AC1: ");
         ac1 = scn.nextDouble();
@@ -20,9 +16,9 @@ public class AC1 {
         System.out.println("Digite sua nota na AF: ");
         af = scn.nextDouble();
 
-        //receba a nota minima para aprovacao
+        //recaba a nota minima para aprovacao
         System.out.println("Digite a nota mínima para aprovação: ");
-        notaminima = scn.nextDouble();
+        notaMinima = scn.nextDouble();
 
         //calcule a media final
         double mediafinal = (ac1 * 0.15) + (ac2 *0.30) + (ag * 0.10) + (af * 0.45);
@@ -33,17 +29,15 @@ public class AC1 {
         System.out.println("AG: " + ag);
         System.out.println("AF: " + af);
 
-        //mostre a media final
+        //mostre a media final e se foi aprovado ou não
         System.out.println("Sua média final é: " + mediafinal);
-
-        //mostre se foi aprovado ou nao
-        if(mediafinal >= notaminima){
-            System.out.println("Aprovado!");
+        if(mediafinal >= notaMinima){
+            System.out.println("Aprovado! :D");
         }else{
-            System.out.println("Reprovado!");
+            System.out.println("Reprovado! :C");
         }
-        
-        //feche o scanner
+
+        //feche scanner
         scn.close();
     }
 }
